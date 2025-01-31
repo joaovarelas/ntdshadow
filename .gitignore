@@ -1,0 +1,40 @@
+# Visual Studio specific
+.vs/
+*.vcxproj.user
+*.suo
+*.user
+*.cache
+*.pdb
+*.idb
+*.tlog/
+*.log
+*.obj
+*.ipch
+*.ncb
+*.sdf
+*.opensdf
+*.VC.db
+*.VC.opendb
+
+# Build output
+Debug/
+Release/
+x64/
+x86/
+ARM/
+ARM64/
+CMakeCache.txt
+CMakeFiles/
+
+# Ignore compiled binaries
+*.exe
+*.dll
+*.lib
+*.exp
+*.iobj
+*.ipdb
+
+# Ignore generated files
+CMakeUserPresets.json
+*.tlog/
+*.lastbuildstate
